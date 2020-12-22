@@ -19,12 +19,5 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  badge = Array.new
   
 end
-
- names = Array.new(n)
-    for i in (0..n)
-      names[i]=gets.chomp
-    end
-    return names,n
