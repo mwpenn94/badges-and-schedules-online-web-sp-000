@@ -24,3 +24,9 @@ def printer(attendees)
   assign_rooms(attendees)
     room_assignments.each { |rooms_assigned| puts rooms_assigned }
 end
+
+ names = Array.new(n)
+    for i in (0..n)
+      names[i]=gets.chomp
+    end
+    return names,n
