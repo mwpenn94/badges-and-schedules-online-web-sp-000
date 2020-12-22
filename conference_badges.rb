@@ -25,5 +25,3 @@ binding.pry
   assign_rooms(attendees)
     room_assignments.each { |rooms_assigned| puts rooms_assigned }
 end
-  
-
